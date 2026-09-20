@@ -1,0 +1,4 @@
+input {
+  display: block;  /*with this input elements appear one below other not next to each other*/
+  margin-bottom: 5px;
+}
