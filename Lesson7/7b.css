@@ -1,0 +1,8 @@
+.cat-picture {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;  /* Fills the entire 200 × 200 box while keeping the image's original proportions.
+  
+  cover = fill the box, don't distort the image, crop if necessary. */
+  object-position: center; /* center means: Keep the center of the original image in the center of the box.*/
+}
