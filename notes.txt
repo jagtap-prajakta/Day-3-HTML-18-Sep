@@ -1,0 +1,20 @@
+---------------------------- CSS Specificity ---------------------------- 
+class properties has more specificity than p tag properties
+
+- When multiple CSS rules target the same element, specificity decides which rule wins.
+
+- Suppose u have : <p class="text">Hello</p>
+- and CSS: 
+p {
+  color: red;
+}
+.text {
+  color: blue;
+}
+both rules apply to the same <p>
+So which color will it be?  => blue
+Why> Because .text(a class selector) has higher specificity than p(an element selector)
+
+SPECIFICITY has LEVELS:
+Highest -> Inline Styles -> ID selectors -> Class/ attribute/ pseudo-class -> Element/ pseudo- element -> Lowest
+
