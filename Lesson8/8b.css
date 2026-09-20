@@ -1,0 +1,6 @@
+p {
+  display: inline-block;  /*this is a combination of inline+block behaviour. 
+  It means: The paragraph can stay on the same line as the buttons, but you can still give it a specific width.*/
+  width: 200px;
+  vertical-align: middle;
+}
